@@ -1,0 +1,253 @@
+body{
+    background: #000000;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.section_tittle{
+    padding-top: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.MainImage {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/Main/Intro.jpg') center center / cover no-repeat;
+    z-index: -10;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.section_header{
+    margin-bottom: 90px;
+}
+
+.section_tittle{
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+.groups{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.groups_item{
+    background-color: rgba(37, 37, 37, 0.6);
+    color: white;
+    width: 1000px;
+    margin: 5px 5px 15px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,1);
+    text-align: center;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team_img{
+    display: block;
+    margin: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.team_name{
+    width: 400px;
+    margin: 5px 5px 35px;
+    text-transform: uppercase;
+
+}
+
+table{
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    color: white;
+}
+
+th{
+    font-size: 20px;
+    background-color: rgba(30,30,150,0.5);
+}
+
+td{
+    background-color: rgba(30,30,150,0.5);
+}
+
+.group-name{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    background-color: rgba(30,30,150,0.7);
+}
+
+.table_team-name-head{
+    text-align: center;
+    font-size: 30px;
+}
+
+.table_team-name{
+    color: rgba(255,255,255,1);
+    font-size: 30px;
+    display: flex;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.table_games-played{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_games-won{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_games-drawn{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_games-losed{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_goals-scored{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_goals-conceded{
+    width: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_goals-differnce{
+    width: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.table_team-points{
+    width: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1000px) {
+    .groups_item{
+        width: 300px;
+        margin: 0 auto 20px auto;
+    }
+    .group-name{
+        font-size: 14px;
+    }
+
+    .table_team-name-head{
+        font-size: 14px;
+    }
+
+    .table_team-name{
+        font-size: 0;
+        display: flex;
+        width: 50px;
+        justify-content: center;
+      }
+
+    .table_games-played{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_games-won{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_games-drawn{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_games-losed{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_goals-scored{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_goals-conceded{
+        width: 25px;
+        font-size: 8px;
+    }
+
+    .table_goals-differnce{
+        width: 50px;
+        font-size: 8px;
+    }
+
+    .table_team-points{
+        width: 50px;
+        font-size: 8px;
+    }
+
+    .team_img{
+        display: block;
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+}
+
+@media (max-width: 555px) {
+    .nav_link{
+        font-size: 10px;
+    }
+}
